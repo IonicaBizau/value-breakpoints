@@ -1,0 +1,43 @@
+{
+  "name": "value-breakpoints",
+  "description": "Run specific stuff when value reaches a specific range.",
+  "keywords": [
+    "value",
+    "breakpoints",
+    "run",
+    "specific",
+    "stuff",
+    "when",
+    "reaches",
+    "a",
+    "range"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "build/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/value-breakpoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/value-breakpoints/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/value-breakpoints#readme"
+}
