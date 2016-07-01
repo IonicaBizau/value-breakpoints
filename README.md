@@ -114,6 +114,7 @@ Creates a breakpoint object instance.
   - `started` (Boolean): `true`, if the value reached the min number, `false` otherwise.
   - `ended` (Boolean): `true`, if the value reached the max number, `false` otherwise.
   - `event` (String): The event to be emitted when the value is in the specific range.
+  - `_` (Object): The original input object.
 
 ### `check(val)`
 
