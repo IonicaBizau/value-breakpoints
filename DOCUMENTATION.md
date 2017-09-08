@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Creates a breakpoint object instance.
 
 #### Params
+
 - **Object** `input`: An object containing the following fields:
   - `min` (Number): The min value to be caught (default: `-Infinity`).
   - `max` (Number): The max value to be caught (default: `+Infinity`).
@@ -32,6 +33,7 @@ Creates a breakpoint object instance.
 ### `check(val)`
 
 #### Params
+
 - **Number** `val`: The value to be checked.
 
 #### Return
@@ -44,6 +46,7 @@ Creates a breakpoint object instance.
 Run specific stuff when value reaches a specific range.
 
 #### Params
+
 - **Array** `brks`: An array of breakpoint objects.
 
 #### Return
@@ -59,6 +62,7 @@ Stops all the intervals.
 Adds one or more breakpoints.
 
 #### Params
+
 - **Object** `brk`: The breakpoint object or an array of breakpoints.
 
 #### Return
@@ -67,6 +71,7 @@ Adds one or more breakpoints.
 ### `check(fn, interval)`
 
 #### Params
+
 - **Function|Number** `fn`: The function to be called when checking the value automatically. Manual checking is possible by passing a number.
 - **Number** `interval`: The interval duration.
 
